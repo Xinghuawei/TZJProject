@@ -5,7 +5,9 @@
 .container{
   height: 100%;
   width: 100%;
-  background-image: url(https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading_page_background.jpg?sign=08e65734f9fade94a25a8f212502e62f&t=1558562381);
+  /* 
+  背景图占位
+  background-image: url(https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading_page_background.jpg?sign=08e65734f9fade94a25a8f212502e62f&t=1558562381); */
 }
 
 #loading_title{
@@ -22,4 +24,8 @@
 }
 
 
+.bg_box video{
+    width: 100%;
+   height: 100%;
+}
 
