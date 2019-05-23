@@ -1,17 +1,18 @@
 {
   "pages": [
-      "pages/index/index",
     "pages/main/main",
+    "pages/index/index",
     "pages/company/company",
-    "pages/lawyer/lawyer"
+    "pages/lawyer/lawyer",
+    "pages/message/message"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "天之娇律师事务所",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
-  
 }

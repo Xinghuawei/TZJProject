@@ -33,7 +33,7 @@
 <!-- 第三个图片连接 -->
             <view class="weui-flex__item">
             
-        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383'></image>
+        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='messagePage'></image>
             </view>
 <!-- 第四个图片连接 -->
             <view class="weui-flex__item">

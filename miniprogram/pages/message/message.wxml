@@ -1,0 +1,10 @@
+<!--miniprogram/pages/message/message.wxml-->
+<!-- <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+    >Login</button> -->
+<!-- <button class="userinfo-nickname"      bindtap='onGetOpenid'>Login</button> -->
+<button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" bindtap='onGetOpenid'>
+  获取用户信息
+</button>

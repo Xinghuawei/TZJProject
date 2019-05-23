@@ -1,5 +1,4 @@
-//index.js
-const app = getApp()
+
 
 Page({
 // redirectTo关闭当前页面，不能返回
@@ -11,9 +10,6 @@ Page({
     }),
       wx.showLoading({
         title: '天之娇为您服务',
-      }),
-    setTimeout(function () {
-      wx.hideLoading()
-    }, 600)
+      })
   }
 })

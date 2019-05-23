@@ -43,12 +43,17 @@ Page({
   },
   messagePage: function () {
     wx.navigateTo({
-      url: '../company/company',
+      url: '../message/message',
     })
   },
   mapPage: function () {
     wx.navigateTo({
       url: '../company/company',
+    })
+  },
+  onReady: function () {
+    setTimeout(function () {
+      wx.hideLoading()
     })
   }
 })
