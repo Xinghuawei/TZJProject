@@ -1,1 +1,49 @@
-<view class="intro">组件</view>
+<view class="page">
+
+<!--main.wxml-->
+<view class="container">
+    <!--轮播图-->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+
+
+<!-- 四个连接 -->
+<view class="weui-flex">
+<!-- 第一个图片连接 -->
+            <view class="weui-flex__item">          
+            <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='companyPage'></image>
+            </view>
+<!-- 第二个图片连接 -->
+             <view class="weui-flex__item">
+            
+            <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='lawyerPage'></image>
+
+            </view>
+        </view>
+
+<view class="weui-flex">
+<!-- 第三个图片连接 -->
+            <view class="weui-flex__item">
+            
+        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383'></image>
+            </view>
+<!-- 第四个图片连接 -->
+            <view class="weui-flex__item">
+    
+        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383'></image>
+            </view>
+        </view>
+
+<view class="weui-footer weui-footer_fixed-bottom">
+  <view class="weui-footer__text">Copyright © 2008-2019 天之娇律师事务所</view>
+</view>
+
+</view>
+

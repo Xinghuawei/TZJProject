@@ -8,6 +8,12 @@ Page({
   nextPage: function() {
     wx.redirectTo({
       url: '../main/main',
-    })
-    }
+    }),
+      wx.showLoading({
+        title: '天之娇为您服务',
+      }),
+    setTimeout(function () {
+      wx.hideLoading()
+    }, 600)
+  }
 })
