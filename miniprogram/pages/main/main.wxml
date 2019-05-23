@@ -17,8 +17,8 @@
 <!-- 四个连接 -->
 <view class="weui-flex">
 <!-- 第一个图片连接 -->
-            <view class="weui-flex__item">          
-            <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='companyPage'></image>
+            <view class="weui-flex__item">
+<image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='companyPage'></image>
             </view>
 <!-- 第二个图片连接 -->
              <view class="weui-flex__item">
@@ -42,7 +42,10 @@
         </view>
 
 <view class="weui-footer weui-footer_fixed-bottom">
-  <view class="weui-footer__text">Copyright © 2008-2019 天之娇律师事务所</view>
+<image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' mode="aspectFit"></image>
+  <view class="weui-footer__text">陕西天之娇律师事务所</view>
+  <view class="weui-footer__text">联系地址：XXX</view>
+  <view class="weui-footer__text">联系电话：XXXXXX</view>
 </view>
 
 </view>

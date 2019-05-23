@@ -33,6 +33,7 @@
 }
 
 .weui-footer {
+  height: 5em;
   color: #000000;
   font-size: 28rpx;
   text-align: center;
@@ -47,3 +48,13 @@
   right: 0;
 }
 
+.weui-footer__text{
+  padding-top: 3px;
+}
+
+.footer-image{
+  float: left;
+  height: 100%;
+  width: 6em;
+  padding-left: 5px;
+}
