@@ -48,7 +48,7 @@ Page({
   },
   mapPage: function () {
     wx.navigateTo({
-      url: '../company/company',
+      url: '../map/map',
     })
   },
   onReady: function () {
