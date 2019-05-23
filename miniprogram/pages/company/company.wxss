@@ -1,1 +1,28 @@
-/* miniprogram/pages/company/company.wxss */
+.company-content{
+padding: 1px;
+}
+
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 5.3em;
+    line-height: 5.3em;
+    color: #cfcfcf;
+}
+
+.home-swiper {
+  width: 95%;
+  height: 360rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.link-image{
+    width: 100%;
+  height: 100%;
+}
