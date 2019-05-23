@@ -12,6 +12,6 @@
 <image id="loading_title" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading_title.png?sign=2998fb30c2dc7d3d9124d6d8ff093af1&t=1558563264"></image>
 <h3>目前所有组件都以占位为主，后期修饰</h3>
 <!-- 进入按钮 -->
-<button id="loading_enter_button" class="weui-btn" type="default" plain="true">进入</button>
+<button id="loading_enter_button" bindtap='nextPage' class="weui-btn" type="default" plain="true">进入</button>
 </div>
 </view>
