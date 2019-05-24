@@ -1,3 +1,4 @@
+
 Page({
   data: {
     //轮播图配置
@@ -6,6 +7,10 @@ Page({
     duration: 1200
   },
   onLoad: function () {
+
+    
+
+
     var that = this;
     var data = {
       "datas": [
@@ -35,6 +40,7 @@ Page({
     wx.navigateTo({
       url: '../company/company',
     })
+
   },
   lawyerPage: function () {
     wx.navigateTo({

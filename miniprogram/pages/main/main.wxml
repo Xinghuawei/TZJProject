@@ -41,7 +41,7 @@
         <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='mapPage'></image>
             </view>
         </view>
-
+<!-- footer -->
 <view class="weui-footer weui-footer_fixed-bottom">
 <image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' mode="aspectFit"></image>
   <view class="weui-footer__text">陕西天之娇律师事务所</view>
