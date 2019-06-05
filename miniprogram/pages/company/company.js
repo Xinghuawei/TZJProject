@@ -68,11 +68,9 @@ Page({
     const db = wx.cloud.database();
     db.collection('introduction').where({ _id: 'intro' }).get({
         success:res=>{
-        console.log(res)
           this.setData({
             queryResult: res.data[0]
           });
-          console.log(this.data.queryResult)
       }
     })
    
