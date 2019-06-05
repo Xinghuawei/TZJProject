@@ -2,33 +2,78 @@ Page({
   data: {
     //轮播图配置
     autoplay: true,
-    interval: 3000,
-    duration: 1200
+    interval: 2000,
+    duration: 600
   },
-  onLoad: function () {
+
+  onLoad: function() {
+
     var that = this;
     var data = {
-      "datas": [
-        {
+      "datas": [{
           "id": 1,
-          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383"
+        "imgurl": "../../images/reward1.jpg"
         },
         {
           "id": 2,
-          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383"
+          "imgurl": "../../images/reward2.png"
+        },
+        {
+          "id": 3,
+          "imgurl": "../../images/reward3.png"
+        },
+        {
+          "id": 4,
+          "imgurl": "../../images/reward4.png"
+        },
+        {
+          "id": 5,
+          "imgurl": "../../images/reward5.png"
+        },
+        {
+          "id": 6,
+          "imgurl": "../../images/reward6.png"
+        },
+        {
+          "id": 7,
+          "imgurl": "../../images/reward7.png"
+        },
+        {
+          "id": 8,
+          "imgurl": "../../images/reward8.png"
+        },
+        {
+          "id": 9,
+          "imgurl": "../../images/reward9.png"
+        },
+        {
+          "id": 10,
+          "imgurl": "../../images/reward10.png"
+        },
+        {
+          "id": 11,
+          "imgurl": "../../images/reward11.png"
         }
-        // {
-        //   "id": 3,
-        //   "imgurl": "../../images/a3.jpg"
-        // },
-        // {
-        //   "id": 4,
-        //   "imgurl": "../../images/a4.jpg"
-        // }
       ]
     };
     that.setData({
       lunboData: data.datas
+    });
+
+    this.getData();
+  },
+
+  getData: function() {
+    const db = wx.cloud.database();
+    db.collection('introduction').where({ _id: 'intro' }).get({
+        success:res=>{
+        console.log(res)
+          this.setData({
+            queryResult: res.data[0]
+          });
+          console.log(this.data.queryResult)
+      }
     })
+   
   }
 })
