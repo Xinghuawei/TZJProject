@@ -1,7 +1,2 @@
-<!--miniprogram/pages/message/message.wxml-->
-<!-- <button 
-      open-type="getUserInfo" 
-      bindgetuserinfo="onGetUserInfo"
-      class="userinfo-avatar"
-    >Login</button> -->
-<!-- <button class="userinfo-nickname"      bindtap='onGetOpenid'>Login</button> -->
+<!-- 连接至小程序客服 -->
+<button open-type="contact" bindcontact="handleContact">Button</button>
