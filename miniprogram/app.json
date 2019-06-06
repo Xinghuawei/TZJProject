@@ -1,10 +1,10 @@
 {
   "pages": [
-"pages/message/message",
-    "pages/index/index",
     "pages/main/main",
+    "pages/index/index",
     "pages/company/company",
     "pages/lawyer/lawyer",
+    "pages/message/message",
     "pages/map/map"
   ],
   "window": {
