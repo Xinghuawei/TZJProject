@@ -1,3 +1,5 @@
+@import "../main/main.wxss";
+
 .about-info{
   padding-top: 3em;
 }

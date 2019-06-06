@@ -1,3 +1,0 @@
-<!-- 连接至小程序客服 -->
-<i-button open-type="contact" bindcontact="handleContact" type="info"
-id="talk">客服对话</i-button>

@@ -46,11 +46,6 @@ Page({
       url: '../lawyer/lawyer',
     })
   },
-  messagePage: function () {
-    wx.navigateTo({
-      url: '../message/message',
-    })
-  },
   mapPage: function () {
     wx.navigateTo({
       url: '../map/map',

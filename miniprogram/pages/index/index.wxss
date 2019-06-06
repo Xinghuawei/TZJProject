@@ -17,7 +17,7 @@
 }
 
 #loading_title{
-  height: 50px;
+  height: 40%;
   margin-top: 30%;
   z-index: 2;
 }
@@ -27,6 +27,7 @@
   top: 70%;
   width: 40%;
   position: fixed;
+  box-shadow:10px 20px 50px 40px #CCDBDC inset;  
 }
 
 

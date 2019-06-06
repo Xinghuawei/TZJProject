@@ -46,11 +46,13 @@
             </view>
         </view>
 <!-- footer -->
+<template name="A">
 <view class="weui-footer weui-footer_fixed-bottom">
-<image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' mode="aspectFit"></image>
+<image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/TZJ.JPG?sign=ace19cb20243fcacc70c474e768d1c74&t=1559859514' mode="aspectFit"></image>
   <view class="weui-footer__text">陕西天之娇律师事务所</view>
   <view class="weui-footer__text">联系地址：咸阳市抗战路十字怡和大厦404室</view>
 </view>
-
+</template>
+<template is="A"/>
 </view>
 

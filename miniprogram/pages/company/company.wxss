@@ -1,5 +1,28 @@
+.page{
+  height: 100vh;
+}
+
+
+
 .company-content{
 padding: 1px;
+}
+
+#companymessage{
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  padding-left: 10px;
+}
+
+
+
+#talk{
+  border: 1px solid black;
+  box-shadow: 0 5px 15px rgba(123, 142, 224, 0.4);
+  margin-top: 15px;
+  width: 112px;
+  float: left;
 }
 
 .placeholder{
@@ -10,6 +33,11 @@ padding: 1px;
     height: 5.3em;
     line-height: 5.3em;
     color: #cfcfcf;
+}
+
+.container{
+  padding-bottom: 4px;
+  border-bottom: 0.9em solid #ECFBFE;
 }
 
 .home-swiper {

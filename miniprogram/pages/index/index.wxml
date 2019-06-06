@@ -6,12 +6,12 @@
 
 <view class="page">
 <view class='bg_box'>
-<video binderror="videoErrorCallback" id="myVideo" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading2.mp4?sign=eab86489c6b6732be287ee5d0a13fdbb&t=1559849672" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}"></video>
+<video binderror="videoErrorCallback" id="myVideo" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/video1.mp4?sign=616709192e9daaeb6a9d7c03c516af2f&t=1559861597" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}"></video>
 </view>
 <div class="container">
 
 <!-- 公司名称 -->
-<image id="loading_title" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading_title.png?sign=2998fb30c2dc7d3d9124d6d8ff093af1&t=1558563264"></image>
+<image id="loading_title" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/output-onlinepngtools.png?sign=a049142bf6323c5d58c7b156ac625b1f&t=1559861622"></image>
 <!-- 进入按钮 -->
 <button id="loading_enter_button" bindtap='nextPage' class="weui-btn" type="default" plain="true">进入</button>
 </div>

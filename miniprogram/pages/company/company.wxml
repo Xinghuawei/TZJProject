@@ -12,7 +12,10 @@
       </block>
     </swiper>
   </view>
-
+  <view id="companymessage">
+  <button open-type="contact" bindcontact="handleContact" type="info"
+id="talk">客服对话</button>
+  </view>
   <i-collapse name="{{name}}">
     <i-collapse-item title="律所简介" class="company-content" name="name1">
       <view slot="content">
@@ -35,4 +38,6 @@
       </view>
     </i-collapse-item>
   </i-collapse>
+  
+  
 </view>

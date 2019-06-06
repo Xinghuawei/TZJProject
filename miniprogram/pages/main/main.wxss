@@ -77,7 +77,7 @@
   height: 100%;
   margin: auto;
   background-image: url(https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/message.png?sign=969d8c700fbdf477d7643e769556b0d6&t=1559844016);
-  background-size: 70% 70%;
+  background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
