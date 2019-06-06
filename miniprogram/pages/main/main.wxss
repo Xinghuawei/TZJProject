@@ -44,7 +44,7 @@
 
 .weui-footer_fixed-bottom {
   position: fixed;
-  margin-bottom: 0.5em;
+  margin-bottom: 3em;
   background-color:#CCDBDC;
   bottom: 0;
   left: 0;
