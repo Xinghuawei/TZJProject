@@ -2,6 +2,12 @@
   height: 100vh;
 }
 
+
+#loading_enter_button{
+  background-color: #80CED7;
+  border: none;
+}
+
 .container{
   height: 100%;
   width: 100%;
@@ -21,6 +27,16 @@
   top: 70%;
   width: 40%;
   position: fixed;
+}
+
+
+.bg_box{
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 

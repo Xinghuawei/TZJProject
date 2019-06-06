@@ -19,13 +19,13 @@
 <view class="weui-flex">
 <!-- 第一个图片连接 -->
             <view class="weui-flex__item">
-<image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='companyPage'></image>
+<image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/company.png?sign=e212bf78bbf394518240feb20597f066&t=1559846747' bindtap='companyPage'></image>
 <h3 class="lowertitle">律所简介</h3>
             </view>
 <!-- 第二个图片连接 -->
              <view class="weui-flex__item">
             
-            <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='lawyerPage'></image>
+            <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/Lawyer.png?sign=8758f7b750ebb30ebba0b05a5b9db54f&t=1559846620' bindtap='lawyerPage'></image>
 <h3 class="lowertitle">律师风采</h3>
             </view>
         </view>
@@ -34,14 +34,14 @@
 <!-- 第三个图片连接 -->
             <view class="weui-flex__item">
             
-        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='mapPage'></image>
+        <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/contact.png?sign=f2a707e83eaf0c5c709f038a4a929df8&t=1559846950' bindtap='mapPage'></image>
         <h3 class="lowertitle">联系我们</h3>
             </view>
 <!-- 第四个图片连接 -->
             <view class="weui-flex__item" id="shadow">
     
         <!-- <image class="link-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' bindtap='messagePage'></image> -->
-        <button id="meButton"></button>
+        <button id="meButton" open-type="contact" bindcontact="handleContact"></button>
         <h3 class="lowertitle">联系客服</h3>
             </view>
         </view>
@@ -49,8 +49,7 @@
 <view class="weui-footer weui-footer_fixed-bottom">
 <image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383' mode="aspectFit"></image>
   <view class="weui-footer__text">陕西天之娇律师事务所</view>
-  <view class="weui-footer__text">联系地址：XXX</view>
-  <view class="weui-footer__text">联系电话：XXXXXX</view>
+  <view class="weui-footer__text">联系地址：咸阳市抗战路十字怡和大厦404室</view>
 </view>
 
 </view>

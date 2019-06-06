@@ -3,11 +3,10 @@ Page({
   data: {
     //轮播图配置
     autoplay: true,
-    interval: 3000,
-    duration: 1200
+    interval: 5000,
+    duration: 700
   },
   onLoad: function () {
-
     
 
 
@@ -16,11 +15,11 @@ Page({
       "datas": [
         {
           "id": 1,
-          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383"
+          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/mainimage.png?sign=8ebd2a14eb7cd4056a653cf6aee1ff3a&t=1559847044"
         },
         {
           "id": 2,
-          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/placeholder1.jpg?sign=f91aa0b6226af72c78c3df7887403bdb&t=1558631383"
+          "imgurl": "https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/mainimage2.png?sign=eb2bed11d5dc3d6d3dc204d3c4ccc3e1&t=1559847082"
         }
         // {
         //   "id": 3,

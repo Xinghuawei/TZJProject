@@ -1,16 +1,17 @@
 <!--index.wxml-->
-<!-- 
-后期视频占位
-<video binderror="videoErrorCallback" id="myVideo" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/952f5b6f9b72ff3766a46cac77026ac5.mp4?sign=25651db3c04730d464ea68bcc8d2ef49&t=1558566003" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}"></video> -->
+
+
+
 
 
 <view class="page">
-
+<view class='bg_box'>
+<video binderror="videoErrorCallback" id="myVideo" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading2.mp4?sign=eab86489c6b6732be287ee5d0a13fdbb&t=1559849672" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}"></video>
+</view>
 <div class="container">
 
 <!-- 公司名称 -->
 <image id="loading_title" src="https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/loading_title.png?sign=2998fb30c2dc7d3d9124d6d8ff093af1&t=1558563264"></image>
-<h3>目前所有组件都以占位为主，后期修饰</h3>
 <!-- 进入按钮 -->
 <button id="loading_enter_button" bindtap='nextPage' class="weui-btn" type="default" plain="true">进入</button>
 </div>
