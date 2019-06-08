@@ -1,0 +1,15 @@
+/* miniprogram/pages/lawyerInfo/lawyerInfo.wxss */
+.weui-flex{
+  display: flex;
+}
+.link-image{
+  width:10em;
+}
+.weui-flex__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lawyername{
+  font-size: 2em;
+}

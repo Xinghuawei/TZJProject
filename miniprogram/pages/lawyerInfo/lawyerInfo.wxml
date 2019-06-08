@@ -1,0 +1,38 @@
+<!--miniprogram/pages/lawyerInfo/lawyerInfo.wxml-->
+<view class="weui-flex">
+  <view class="weui-flex__item" >
+      <image class="link-image" src='{{lawyer.pic}}'></image>
+  </view>
+  <view class="weui-flex__item" >
+    <h3 class="lawyername">{{lawyer.name}}</h3>
+  </view>
+</view>
+<view>
+<i-collapse>
+    <i-collapse-item title="个人身份">
+      <view slot="content">
+        <view wx:for="{{lawyer.identity}}">
+              <view class="weui-cell">
+                  <view class="weui-cell__bd">
+                      <p>{{item}}</p>
+                  </view>
+              </view>
+        </view>
+      </view>
+    </i-collapse-item>
+  </i-collapse>
+  <i-collapse>
+    <i-collapse-item title="主要荣誉">
+      <view slot="content">
+        <view wx:for="{{lawyer.reward}}">
+              <view class="weui-cell">
+                  <view class="weui-cell__bd">
+                      <p>{{item}}</p>
+                  </view>
+              </view>
+          </view>
+      </view>
+    </i-collapse-item>
+  </i-collapse>
+
+</view>

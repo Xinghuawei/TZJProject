@@ -1,2 +1,15 @@
 <!--miniprogram/pages/lawyer/lawyer.wxml-->
-<text>律师</text>
+ <view class="page">
+  <view class="weui-flex">
+    <block wx:for="{{lawyers}}" wx:key="*this">
+      <template is="lawyerT" data="{{...item}}"/>
+    </block>
+  </view>
+  
+</view>
+<template name="lawyerT">
+  <view class="weui-flex__item" data-id="{{_id}}" bindtap="lawyerInfo">
+      <image class="link-image" src='{{pic}}'></image>
+      <h3 class="lawyername">{{name}}</h3>
+    </view>
+</template>
