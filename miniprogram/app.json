@@ -1,9 +1,9 @@
 {
   "pages": [
+        "pages/lawyer/lawyer",
     "pages/index/index",
     "pages/main/main",
     "pages/company/company",
-    "pages/lawyer/lawyer",
     "pages/map/map",
     "pages/lawyerInfo/lawyerInfo"
   ],

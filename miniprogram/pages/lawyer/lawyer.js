@@ -13,7 +13,6 @@ Page({
         });
       },
     })
-    console.log(this.data)
   },
   lawyerInfo: function(event){
     let id = event.currentTarget.dataset.id;

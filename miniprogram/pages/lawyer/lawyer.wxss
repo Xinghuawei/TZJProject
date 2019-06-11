@@ -1,12 +1,25 @@
 /* miniprogram/pages/lawyer/lawyer.wxss */
+.page{
+    background-color: 	#F8F8F8;
+}
 .weui-flex{
   flex-wrap: wrap;
 }
 .link-image{
-  width:10em;
+  width:8.1em;
+  position: relative;
+  margin: 0.5em 0.5em 1px 0.5em;
+
 }
 .weui-flex__item {
-  width: 10em;
+  width: 9em;
+  margin: 5px;
   display: flex;
   flex-flow: column;
+    background-color:white;
+}
+
+.lawyername{
+  background-color: white;
+  padding-left: 7px;
 }
