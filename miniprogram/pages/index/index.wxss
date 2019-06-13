@@ -2,6 +2,7 @@
   height: 100vh;
   background-image: url("https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/hills-1031590_960_720.jpg?sign=7b2a40cbf68a6ac1226e41afcdfefa98&t=1560451926");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
