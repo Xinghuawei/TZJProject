@@ -13,17 +13,17 @@
 ></map>
 <view class="weui-cells weui-cells_after-title about-info">
             <view class="weui-cell">
-                <view class="weui-cell__bd">天之娇律师事务所</view>
+                <view class="weui-cell__bd">天之骄律师事务所</view>
                 <!-- <view class="weui-cell__ft">说明文字</view> -->
             </view>
             <view class="weui-cell">
                 <view class="weui-cell__bd">地址</view>
                 <view class="weui-cell__ft">咸阳市抗战路十字怡和大厦404室</view>
             </view>
-            <view class="weui-cell">
+            <!-- <view class="weui-cell">
                 <view class="weui-cell__bd">电话</view>
-                <view class="weui-cell__ft">XXX</view>
-            </view>
+                <view class="weui-cell__ft"></view>
+            </view> -->
         </view>
 </view>
 <import src="../main/main.wxml"/>

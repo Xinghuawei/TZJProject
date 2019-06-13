@@ -49,8 +49,8 @@
   <!-- footer -->
   <template name="A">
     <view class="weui-footer weui-footer_fixed-bottom">
-      <image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/TZJ.JPG?sign=ace19cb20243fcacc70c474e768d1c74&t=1559859514' mode="aspectFit"></image>
-      <view class="weui-footer__text">陕西天之娇律师事务所</view>
+      <image class="footer-image" src='https://747a-tzj-wechat-project-44v3a-1259195337.tcb.qcloud.la/Capture.JPG?sign=a06dee592c0e385f4d09e1647ed9b6c8&t=1560452323' mode="aspectFit"></image>
+      <view class="weui-footer__text">陕西天之骄律师事务所</view>
       <view class="weui-footer__text">联系地址：咸阳市抗战路十字怡和大厦404室</view>
     </view>
   </template>

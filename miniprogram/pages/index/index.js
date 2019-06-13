@@ -9,7 +9,7 @@ Page({
       url: '../main/main',
     }),
       wx.showLoading({
-        title: '天之娇为您服务',
+        title: '天之骄为您服务',
       })
   }
 })
